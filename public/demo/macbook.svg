@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="DEMO produktbillede">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16181d"/>
+      <stop offset="100%" stop-color="#0b0c0f"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3f47"/>
+      <stop offset="100%" stop-color="#202329"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2430"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect x="96" y="118" width="208" height="132" rx="8" fill="url(#lid)"/>
+  <rect x="104" y="126" width="192" height="116" rx="4" fill="url(#scr)"/>
+  <path d="M76 258h248l14 26a6 6 0 0 1-5 9H67a6 6 0 0 1-5-9z" fill="#2a2e35"/>
+  <rect x="172" y="258" width="56" height="7" rx="3.5" fill="#1a1d22"/>
+  <rect x="104" y="126" width="192" height="116" rx="4" fill="none" stroke="#2b3441" stroke-width="1"/>
+  <text x="200" y="332" text-anchor="middle" font-family="-apple-system,Helvetica,Arial" font-size="13" fill="#5a6270" letter-spacing="2">DEMO FIXTURE</text>
+</svg>

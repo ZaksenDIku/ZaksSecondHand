@@ -1,0 +1,1 @@
+ALTER TABLE `alerts` ADD `category` text DEFAULT 'INFO' NOT NULL;
