@@ -132,7 +132,7 @@ npm run verify      # lint + typecheck + test + build
 npm run test
 ```
 
-Suiterne dækker produktparsing, markedsestimat, DealScore, risiko, duplikater, flipeconomics, velocity, insights, forhandlingsbud og **en fuldende-til-slut-pipeline** (`tests/pipeline.test.ts`) mod en midlertidig SQLite-fil. Din rigtige database røres aldrig.
+Suiterne dækker produktparsing, markedsestimat, DealScore, risiko, duplikater, flipeconomics, velocity, insights, forhandlingsbud og **en ende-til-ende-pipeline** (`tests/pipeline.test.ts`) mod en midlertidig SQLite-fil. Din rigtige database røres aldrig.
 
 ### Skemaændringer
 
